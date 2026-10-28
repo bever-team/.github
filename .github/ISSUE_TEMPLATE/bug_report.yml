@@ -1,0 +1,36 @@
+name: Bug report
+description: Something does not work as documented.
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What did you do, what did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: model
+    attributes:
+      label: Minimal model
+      description: The smallest .bev model that shows the problem.
+      render: bev
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. bever new "Repro"
+        2. ...
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Output of `bever --version`.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      placeholder: OS, .NET SDK version, Node.js version, browser

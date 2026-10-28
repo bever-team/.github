@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Documentation
+    url: https://bever.dev
+    about: Guides, tutorial, and references.
+  - name: Report a security vulnerability
+    url: https://github.com/bever-team/.github/blob/main/SECURITY.md
+    about: Please report security issues privately.
