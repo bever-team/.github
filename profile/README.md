@@ -7,7 +7,7 @@
   </a>
 </p>
 
-<p align="center"><strong>Business applications as code.</strong></p>
+<p align="center"><strong>Business logic as code.</strong></p>
 
 Bever is an open-source language and framework for business applications. Describe entities, fields, relationships, and permissions in compact `.bev` files; Bever serves them as a validated, authorized API and a web app your team owns.
 
